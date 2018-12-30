@@ -727,7 +727,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="18" style="3"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="imprimer"/>
+            <Property name="text" type="java.lang.String" value="Re&#xe7;ue "/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
@@ -851,7 +851,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Tahoma" size="18" style="3"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="annuler"/>
+            <Property name="text" type="java.lang.String" value="Annuler"/>
           </Properties>
           <Events>
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>

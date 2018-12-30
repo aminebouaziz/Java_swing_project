@@ -58,7 +58,6 @@ ResultSet rs;
         lbltotal = new javax.swing.JLabel();
         lblcash = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
         lblheure = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         lbldate = new javax.swing.JLabel();
@@ -138,17 +137,7 @@ ResultSet rs;
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(50, 260, 140, 40);
-
-        jButton2.setFont(new java.awt.Font("Times New Roman", 0, 24)); // NOI18N
-        jButton2.setText("Imprimer");
-        jButton2.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton2ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton2);
-        jButton2.setBounds(50, 210, 140, 40);
+        jButton1.setBounds(20, 230, 170, 70);
 
         lblheure.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         lblheure.setText("date :");
@@ -181,10 +170,6 @@ ResultSet rs;
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
-this.printComponents(null);
-    }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 cachier s = new cachier();
@@ -243,7 +228,6 @@ s.setVisible(true);
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;

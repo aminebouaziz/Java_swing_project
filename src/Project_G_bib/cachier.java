@@ -431,7 +431,7 @@ public class cachier extends javax.swing.JFrame {
         txtcas.setBounds(140, 380, 130, 30);
 
         jButton1.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
-        jButton1.setText("imprimer");
+        jButton1.setText("Reçue ");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -491,7 +491,7 @@ public class cachier extends javax.swing.JFrame {
         jLabel21.setBounds(160, 310, 110, 30);
 
         jButton6.setFont(new java.awt.Font("Tahoma", 3, 18)); // NOI18N
-        jButton6.setText("annuler");
+        jButton6.setText("Annuler");
         jButton6.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton6ActionPerformed(evt);

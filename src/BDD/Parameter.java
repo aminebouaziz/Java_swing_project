@@ -6,7 +6,7 @@ package BDD;
 
 /**
  *
- * @author Seno4
+ * @author Amine
  */
 public class Parameter {
 
